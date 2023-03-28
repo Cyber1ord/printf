@@ -13,6 +13,7 @@ int print_int(va_list arguments, char *buf, unsigned int ibuf)
 	unsigned int int_in, int_temp, i, div, isneg;
 
 	int_input = va_arg(arguments, int);
+	
 	isneg = 0;
 	if (int_input < 0)
 	{
